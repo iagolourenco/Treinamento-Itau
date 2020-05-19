@@ -1,0 +1,60 @@
+<DOCTYPE html>
+    
+    <html lan="pt=br">
+        
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="CSS/CSS1.css" rel="stylesheet">
+        <title>Carreira de Banco de Dados</title>
+        <script type="text/javascript" src="JS/JavaScript1.js" ></script>
+    </head>
+    <body>
+
+        <h1>Você sabe como é trabalhar com Banco de Dados?</h1>
+        <nav id="menu">
+
+            <figure>
+                <img src = "IMAGES/drawDatabase.jpg" alt="Imagem não carregou" width="200" height="200" style="margin:100px 60px">
+            </figure>
+
+            <ul width="200" height="200" style="margin:145px 60px">
+                <li><a href="#">Carreiras</a></li>
+                <li><a href="#">Tecnologias</a></li>
+                <li><a href="#">Evolução e Futuro</a></li>
+                <li><a href="#">Contato, dúvidas e reclamações</a></li>
+            </ul>
+        </nav>
+        
+        <h2>Quer ganhar seu Kit-Iniciação?</h2>
+        <h3>Preencha abaixo: </h3>
+
+        <form action="pagina.html" method="get">
+            <fieldset>
+                <legend> Dados Pessoais </legend>
+                <label>Nome: </label> <input type="text" name="nome" required="true"><br><br>
+                <label>Sobrenome: </label> <input type="text" name="sobrenome" required="true"><br><br>
+                <label>Data de Nascimento: </label> <input type="date" name="dtNasc" required="true"><br><br>
+                <label>Sexo: </label><br>
+                <input type="radio" name="sexo" value="M"><label>Masculino</label>
+                <input type="radio" name="sexo" value="F"><label>Feminino</label><br><br><br><br>
+                <label>E-mail: </label> <input type="email" name="email" required="true"><br><br>
+                <label>Senha: </label> <input type="password" name="senha" maxlength="8" required="true"> <br><br>  
+            </fieldset>
+            <fieldset>
+                <legend>Informação adicional</legend>
+                <label>Quantidade de filhos: </label><input type="number"min="1"max="20"><br><br>
+                <label>Carreira desejada: </label> 
+                <select>
+                    <option value="DBA">Database Administrator</option>
+                    <option value="DA">Database Analyst</option>
+                    <option value="DE">Database Engineering</option>
+                </select>
+            </fieldset>
+            <br>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </form>
+
+    </body>
+    </html>

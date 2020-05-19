@@ -1,0 +1,44 @@
+body {
+    background-color:white;
+    align-self: stretch;
+}
+
+nav{
+    display: flex
+}
+
+h1{
+    color: rgb(95, 76, 179)
+}
+
+h2{
+    color: rgb(109, 90, 192)
+}
+
+h3{
+    color: rgb(109, 90, 192)
+}
+#menu ul li a {
+    padding: 6px 10px;
+    display: inline-block;
+
+    /* visual do link */
+    background-color:white;
+    color: #333;
+    text-decoration: double;
+    border-bottom:3px solid #EDEDED;
+}        
+
+#menu ul li a:hover {
+    background-color:#D6D6D6;
+    color: #6D6D6D;
+    border-bottom:3px solid rgb(95, 76, 179);
+}
+
+img.face{
+    float: left;
+    border: transparent thin solid;
+    padding: 5px;
+    margin: 0px 10px 10px 0;
+    max-width: 186px;
+}
